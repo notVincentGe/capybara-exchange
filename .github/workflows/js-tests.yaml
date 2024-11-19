@@ -31,7 +31,6 @@ jobs:
 
       - name: Run tests
         run: pnpm run test
-        continue-on-error: true
 
       - name: Upload results
         # Run this step even if the test step ahead fails
