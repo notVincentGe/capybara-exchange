@@ -41,4 +41,10 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
   ],
+  /* Generate junit xml reports */
+  reporter: [
+    ['junit', 
+      { outputFile: 'junit.xml' }
+    ]
+  ],
 });
